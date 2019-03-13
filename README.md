@@ -38,6 +38,6 @@ $ docker-machine rm symfony-console
 
 ## Adding Commands
 
-Create commands in src/App/Command and add them to $application in bin/console
+Create commands in src/App/Command and add them to `$application` in bin/console
 
 For an example see src/App/Command/TestCommand.php
