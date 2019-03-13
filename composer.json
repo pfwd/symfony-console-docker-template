@@ -1,0 +1,25 @@
+{
+    "name": "pfwd/symfony-console-docker-template",
+    "description": "Template for Symfony console within Docker",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Peter Fisher"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "require": {
+        "symfony/console": "~4.0",
+        "php": ">=7.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-bin-dir": "bin"
+    }
+}

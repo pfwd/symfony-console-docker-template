@@ -1,0 +1,15 @@
+version: '3.4'
+volumes:
+  vendor:
+
+services:
+
+  console:
+
+    build: .
+    volumes:
+        - .:/app
+        - vendor:/app/vendor
+    restart: on-failure
+    tty: true
+    stdin_open: true
