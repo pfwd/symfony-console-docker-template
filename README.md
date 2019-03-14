@@ -2,6 +2,12 @@
 
 A template for Symfony console commands to be used within Docker containers
 
+## Requirements
+- Docker version 18.09.2, build 6247962
+- docker-compose version 1.23.2, build 1110ad01
+- docker-machine version 0.16.1, build cce350d7
+
+## Install
 ```
 $ docker-machine create symfony-console
 $ docker-machine env symfony-console
