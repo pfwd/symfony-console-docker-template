@@ -47,3 +47,10 @@ $ docker-machine rm symfony-console
 Create commands in src/App/Command and add them to `$application` in bin/console
 
 For an example see src/App/Command/TestCommand.php
+
+## Test Your Application
+
+### PHPStan
+```
+docker-compose exec php bin/phpstan analyse --level=7 src
+```
