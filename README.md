@@ -48,9 +48,13 @@ Create commands in src/App/Command and add them to `$application` in bin/console
 
 For an example see src/App/Command/TestCommand.php
 
-## Test Your Application
+## Test Your Scripts
 
 ### PHPStan
 ```
 docker-compose exec php bin/phpstan analyse --level=7 src
 ```
+
+# Document Your Scripts
+- Create a new markdown file for each script in the [script folder](docs/scripts/script)
+- Add the script documentation to the scripts [index page](docs/scripts/index.md)
