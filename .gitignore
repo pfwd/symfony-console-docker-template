@@ -2,3 +2,4 @@
 /vendor/
 bin/*
 !bin/console
+composer.lock
